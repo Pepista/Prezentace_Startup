@@ -1,58 +1,100 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>Waifu Wheel Presentation</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-				<header>
-					
-				</header>
-				<body>
-					<h3>Startup projekt - Waifu Wheel</h3>
-					<h4>Vytoč si svou ženu!</h4>
-					<h5>Davdo Brando, Pedro Joestar, Jakubo Zeppelli</h5>
-				</body></section>
+            <!-- Slide 1: Title -->
+            <section>
+                <h1>Startup projekt - Waifu Wheel</h1>
+                <h3>Vytoč si svou ženu!</h3>
+                <h5>Davdo Brando, Pedro Joestar, Jakubo Zeppelli</h5>
+            </section>
 
-				<section>Slide 2
-					<header>
-						
-					</header>
-					<body>
-						<p>Startup projekt - Waifu Wheel</p>
-					</body></section>
+            <!-- Slide 2: O projektu -->
+            <section>
+                <h2>O projektu</h2>
+                <p>Waifu Wheel je revoluční aplikace, která spojuje fanoušky anime a manga. Uživatelé si mohou vytočit náhodnou postavu a personalizovat ji podle svých preferencí.</p>
+            </section>
 
-				<section>Slide 3</section>
-				<section>Slide 4</section>
-			</div>
-		</div>
+            <!-- Slide 3: Funkce -->
+            <section>
+                <h2>Funkce</h2>
+                <ul>
+                    <li><strong>Náhodný výběr postavy:</strong> Generuj unikátní postavy s různými vlastnostmi.</li>
+                    <li><strong>Personalizace:</strong> Uprav vzhled a charakteristiky postavy.</li>
+                    <li><strong>Možnost sdílení:</strong> Sdílej své výsledky na sociálních sítích.</li>
+                </ul>
+            </section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+            <!-- Slide 4: Cílová skupina -->
+            <section>
+                <h2>Cílová skupina</h2>
+                <p>Naši uživatelé jsou fanoušci anime a manga, kteří hledají zábavné a interaktivní aplikace.</p>
+            </section>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+            <!-- Slide 5: Trh a konkurence -->
+            <section>
+                <h2>Trh a konkurence</h2>
+                <p>Analyzujeme trendy na trhu s aplikacemi pro fanoušky a konkurenci, abychom se odlišili.</p>
+                <ul>
+                    <li><strong>Konkurenti:</strong> Jiné aplikace pro generování postav a fanouškovské nástroje.</li>
+                    <li><strong>Příležitosti:</strong> Využití rostoucí popularity anime a manga.</li>
+                </ul>
+            </section>
+
+            <!-- Slide 6: Naše vize -->
+            <section>
+                <h2>Naše vize</h2>
+                <p>Chceme se stát nejlepším nástrojem pro fanoušky, který spojuje kreativitu a zábavu.</p>
+                <blockquote>"Každý by měl mít možnost najít svou ideální waifu!"</blockquote>
+            </section>
+
+            <!-- Slide 7: Financování -->
+            <section>
+                <h2>Financování</h2>
+                <p>Hledáme investice na:</p>
+                <ul>
+                    <li>Vývoj aplikace</li>
+                    <li>Marketing a propagaci</li>
+                    <li>Podporu komunity a uživatelů</li>
+                </ul>
+            </section>
+
+            <!-- Slide 8: Kontakty -->
+            <section>
+                <h2>Kontakty</h2>
+                <p>Máte zájem? Kontaktujte nás!</p>
+                <ul>
+                    <li><strong>Davdo Brando</strong><br>Email: davdob@gmail.com</li>
+                    <li><strong>Pedro Joestar</strong><br>Email: pedroj@gmail.com</li>
+                    <li><strong>Jakubo Zeppelli</strong><br>Email: jakuboz@gmail.com</li>
+                </ul>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
 </html>
